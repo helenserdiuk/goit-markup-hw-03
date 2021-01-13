@@ -1,0 +1,187 @@
+:root{
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --link-text-color: #2196F3;
+}
+
+* {
+    
+    color: var(--title-text-color);
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+p{
+    color: var(--primary-text-color);
+}
+
+/* Шапка*/
+
+.nav-logo{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+}
+
+.header-logo {
+    font-family: 'Raleway';
+    color: var(--link-text-color);
+}
+
+.nav-item{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+.nav-list .nav-item{
+    color: var(--title-text-color);
+}
+
+.contact-list .nav-item {
+    color: var(--primary-text-color);
+}
+
+.nav-item:hover,
+.nav-item:focus
+.nav-item:any-link {
+    color: var(--link-text-color);
+}
+
+.fair{
+color: var(--link-text-color);
+}
+
+/*Основной контент*/
+
+.main-header{
+    background:  #2F303A;
+}
+
+.title-hero{
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+}
+
+/*.main-button{
+
+}
+
+.main-features{
+
+}
+*/
+
+.features-header{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+.features-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+/*.main-works {
+
+}
+
+.main-team{
+
+}
+*/
+
+.team-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.name-direction {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+
+/*Подвал*/
+footer{
+    background:#2F303A;
+   /* color: #FFFFFF;*/
+}
+
+.footer-logo {
+    color: #FFFFFF;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+}
+
+.footer-address{
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.footer-contact {
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71px;
+}
+
+.works-header, .team-header {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+/*Портфолио*/
+
+/*.main-portfolio{
+
+}
+*/
+
+.porfolio-header{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.portfolio-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+}
+
+/*button*/
+    button:hover,
+    button:focus{
+    background: var(--link-text-color);
+    color: #FFFFFF;
+}
+
+.button-slice{
+    background: #F5F4FA;
+    color: var(--title-text-color);
+}
