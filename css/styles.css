@@ -40,6 +40,11 @@ p{
     color: var(--primary-text-color);
 }
 
+body{
+    border: 1px grey;
+    width: 1600px;
+}
+
 
 /* Шапка*/
 
@@ -50,6 +55,7 @@ p{
     margin-left: 215px;
     margin-right: 215px;
     padding: 32px 15px;
+    border: 1px solid #ECECEC;
 }
 
 .container{
@@ -134,8 +140,10 @@ color: var(--link-text-color);
 
 
 .main-header{
-    background:  #2F303A;
+    background-color:  #2F303A;
     text-align: center;
+    height: 600px;
+    width: 1600px;
 }
 
 .title-hero{
@@ -145,35 +153,128 @@ color: var(--link-text-color);
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding-top: 200px;
+    padding-bottom: 30px;
+   
 }
+
+
+/*Особенности*/
 
 /*
 .main-features{
 
 }
 */
+.container-features{
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.features-list{
+    display: flex;
+    margin-left: -10px;
+    margin-top: -10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 1170px;
+    margin-left: 215px;
+    margin-right: 215px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.features-item{
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-top: 94px;
+    flex-basis: calc(100% / 4 - 10px);
+}   
 
 .features-header{
+    display: block;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
+    margin-bottom: 10px;
 }
 
 .features-text{
+    display: block;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
+    margin-bottom: 50px;
 }
 
-/*.main-works {
 
+/*Чем мы занимаемся*/
+
+.main-works{
+    width: 1170px;
+    margin-left: 215px;
+    margin-right: 215px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 94px;
 }
-*/
+
+.container-works{
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.works-header{
+    margin-bottom: 50px;
+}
+
+ .work-list{
+    display: flex;
+}
+.work-item{
+    margin: 5px
+    
+}
+
+/*Команда*/
 
 .main-team{
     background: #F5F4FA;
+    width: 1170px;
+    margin-left: 215px;
+    margin-right: 215px;
+    padding: 30px 15px;
 }
 
+.team-header{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.team-list{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.team-item{
+    flex-basis: calc(100% / 4 - 15px);
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
 
 .team-name {
     font-weight: 500;
@@ -193,12 +294,8 @@ color: var(--link-text-color);
 /*Подвал*/
 footer{
     background:#2F303A;
-    align-content: center;
-    align-items: center;
-    margin-left: 215px;
-    margin-right: 215px;
-    justify-content: space-between;
-    width: 1170px;
+    width: 1600px;
+    padding-left: 230px;
 }
 
 .footer-logo {
