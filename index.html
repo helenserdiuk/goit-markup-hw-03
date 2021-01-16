@@ -15,9 +15,9 @@
 <body>
   <!--Верхняя линия-->
   <header class="header">
-    <div class="container">
+    <div class="container container-header">
       <nav class="navigation">
-        <a class="nav-logo" href="/"><span class="header-logo">Web</span>Studio</a>
+        <a class="nav-logo" href="./"><span class="header-logo">Web</span>Studio</a>
         <ul class="nav-list">
           <li class="nav-item"><a class="nav-link" href="./index.html"><span class="fair">Студия</span></a></li>
           <li class="nav-item"><a class="nav-link" href="./portfolio.html">Портфолио</a></li>
@@ -35,13 +35,15 @@
   <main>
     <!--Шапка-->
     <section class="main-header">
-      <h1 class="title-hero">эффективные решения<br>для вашего бизнеса</h1>
-      <button type="button" class="main-button">Заказать услугу</button>
+        <div class="hero-content">
+          <h1 class="title-hero">эффективные решения<br>для вашего бизнеса</h1>
+          <button type="button" class="main-button">Заказать услугу</button>
+        </div>
     </section>
 
     <!--Особенности-->
     <section class="main-features">
-      <div class="container-features">
+      <div class="container">
         <ul class="features-list">
           <!--Feature 1-->
           <li class="features-item">
@@ -79,59 +81,65 @@
     </section>
 
     <!--Чем мы занимаемся-->
-    <section class="main-works">
-      <h2 class="works-header">Чем мы занимаемся</h2>
-      <div class="container-works">
-      <ul class="work-list">
-        <li class="work-item">
-          <img src="./images/img.jpg" alt="write html" width="370" height="294">
-        </li>
-        <li class="work-item">
-          <img src="./images/img(1).jpg" alt="agree decign" width="370" height="294">
-        </li>
-        <li class="work-item">
-          <img src="./images/img(2).jpg" alt="apply css" width="370" height="294">
-        </li>
-      </ul>
+    <section class="section">
+      <div class="container">
+        <h2 class="section-header">Чем мы занимаемся</h2>
+        <ul class="work-list">
+          <li>
+            <img src="./images/img.jpg" alt="write html" width="370" height="294">
+          </li>
+          <li>
+            <img src="./images/img(1).jpg" alt="agree decign" width="370" height="294">
+          </li>
+          <li>
+            <img src="./images/img(2).jpg" alt="apply css" width="370" height="294">
+          </li>
+        </ul>
       </div>
     </section>
 
     <!--Наша команда-->
-    <section class="main-team">
-      <h2 class="team-header">Наша команда</h2>
-      <ul class="team-list">
-        <li class="team-item">
-          <img src="./images/img(3).jpg" alt="Игорь Демьяненко" width="270" height="260">
-          <h3 class="team-name">Игорь Демьяненко</h3>
-          <p class="name-direction">Product Designer</p>
-        </li>
-        <li class="team-item">
-          <img src="./images/img(4).jpg" alt="Ольга Репина" width="270" height="260">
-          <h3 class="team-name">Ольга Репина</h3>
-          <p class="name-direction">Frontend Developer</p>
-        </li>
-        <li class="team-item">
-          <img src="./images/img(5).jpg" alt="Николай Тарасов" width="270" height="260">
-          <h3 class="team-name">Николай Тарасов</h3>
-          <p class="name-direction">Marketing</p>
-        </li>
-        <li class="team-item">
-          <img src="./images/img(6).jpg" alt="Михаил Ермаков" width="270" height="260">
-          <h3 class="team-name">Михаил Ермаков</h3>
-          <p class="name-direction">Designer</p>
-        </li>
-      </ul>
+    <section class="section">
+      <div class="container">
+        <h2 class="section-header">Наша команда</h2>
+        <ul class="team-list">
+          <li class="team-item">
+            <img src="./images/img(3).jpg" alt="Игорь Демьяненко" width="270" height="260">
+            <h3 class="team-name">Игорь Демьяненко</h3>
+            <p class="name-direction">Product Designer</p>
+          </li>
+          <li class="team-item">
+            <img src="./images/img(4).jpg" alt="Ольга Репина" width="270" height="260">
+            <h3 class="team-name">Ольга Репина</h3>
+            <p class="name-direction">Frontend Developer</p>
+          </li>
+          <li class="team-item">
+            <img src="./images/img(5).jpg" alt="Николай Тарасов" width="270" height="260">
+            <h3 class="team-name">Николай Тарасов</h3>
+            <p class="name-direction">Marketing</p>
+          </li>
+          <li class="team-item">
+            <img src="./images/img(6).jpg" alt="Михаил Ермаков" width="270" height="260">
+            <h3 class="team-name">Михаил Ермаков</h3>
+            <p class="name-direction">Designer</p>
+          </li>
+        </ul>
+      </div>
     </section>
   </main>
 
   <!--Подвал-->
   <footer>
-    <a class="footer-logo" href="/"><span class="header-logo">Web</span>Studio</a>
-    <address class="footer-address">г. Киев, пр-т Леси Украинки, 26</address>
-    <ul>
-      <li><a class="footer-contact" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-      <li><a class="footer-contact" href="tel:+380961111111">+38 096 111 11 11</a></li>
-    </ul>
+    <div class="container">
+      <div class="footer-widget">
+        <a class="footer-logo" href="./"><span class="header-logo">Web</span>Studio</a>
+        <address class="footer-address">г. Киев, пр-т Леси Украинки, 26</address>
+        <ul>
+          <li><a class="footer-contact" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li><a class="footer-contact" href="tel:+380961111111">+38 096 111 11 11</a></li>
+        </ul>
+      </div>
+    </div>
   </footer>
 </body>
 
