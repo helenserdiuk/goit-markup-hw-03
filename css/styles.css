@@ -52,7 +52,7 @@ p{
     margin-right: auto;
     margin-left: auto;
     padding-left: 15px;
-    padding-top: 15px;
+    padding-right: 15px;
 }
 
 .container-header{
@@ -260,6 +260,7 @@ footer{
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    margin-bottom: 20px;
 }
 
 .footer-address{
@@ -268,6 +269,8 @@ footer{
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+    font-style: normal;
+    margin-bottom: 9px;
 }
 
 .footer-contact {
@@ -276,6 +279,7 @@ footer{
     font-size: 14px;
     line-height: 1.71px;
     letter-spacing: 0.03em;
+    margin-bottom: 9px;
 }
 
 .works-header, .team-header {
@@ -289,8 +293,8 @@ footer{
 /*Портфолио*/
 
 .menu-navigation{
-    margin-top: 94px;
-    margin-bottom: 50px;
+    padding-top: 94px;
+    padding-bottom: 50px;
 }
 
 .porfolio-navigation{
@@ -299,8 +303,8 @@ footer{
 }
 
 .portfolio{
-    margin-top: 50px;
-    margin-bottom: 94px;
+    padding-top: 50px;
+    padding-bottom: 94px;
 }
 
 .main-portfolio{
@@ -308,13 +312,18 @@ footer{
     flex-wrap: wrap;
     margin-top: -30px;
     margin-left: -30px;
+    
 }
 
 .main-port-item{
-    flex-basis: calc(100% / 3 - 30px);
+    flex-basis: calc(100%/3 - 30px);
     border: 1px solid #EEEEEE;
     margin-top: 30px;
     margin-left: 30px;
+}
+
+.port-item-text{
+    padding: 20px 24px;
 }
 
 .porfolio-header{
@@ -322,7 +331,7 @@ footer{
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    padding: 20px 24px 2px;
+    margin-bottom: 4px;
 }
 
 .portfolio-text{
@@ -331,7 +340,6 @@ footer{
     line-height: 1.88;
     margin-bottom: 10px;
     letter-spacing: 0.03em;
-    padding: 2px 24px 20px;
 }
 
 /*button*/
