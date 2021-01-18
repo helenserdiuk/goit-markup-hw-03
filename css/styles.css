@@ -260,7 +260,6 @@ footer{
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    margin-bottom: 20px;
 }
 
 .footer-address{
@@ -270,6 +269,7 @@ footer{
     line-height: 1.71;
     letter-spacing: 0.03em;
     font-style: normal;
+    margin-top: 20px;
     margin-bottom: 9px;
 }
 
@@ -293,9 +293,11 @@ footer{
 
 
 /*Портфолио*/
+.main-portfolio-content{
+    padding: 94px 0;
+}
 
 .menu-navigation{
-    padding-top: 94px;
     padding-bottom: 50px;
 }
 
@@ -304,16 +306,11 @@ footer{
     justify-content: center;
 }
 
-.portfolio{
-    padding-bottom: 94px;
-}
-
 .main-portfolio{
     display: flex;
     flex-wrap: wrap;
     margin-top: -30px;
     margin-left: -30px;
-    
 }
 
 .main-port-item{
